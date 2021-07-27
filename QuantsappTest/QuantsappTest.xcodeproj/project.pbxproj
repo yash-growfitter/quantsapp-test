@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB24F453993EA965D3ADCF2A /* libPods-QuantsappTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8A2970E49D6BFD8D8BD313 /* libPods-QuantsappTest.a */; };
+		D3308C0B26AFD14400962FC7 /* dataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3308C0A26AFD14400962FC7 /* dataModel.swift */; };
+		D3308C0E26AFD2A800962FC7 /* serverManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3308C0D26AFD2A800962FC7 /* serverManager.swift */; };
+		D3382C6B26AFC84B0056B1B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3382C6A26AFC84B0056B1B6 /* AppDelegate.swift */; };
+		D3382C6D26AFC84B0056B1B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3382C6C26AFC84B0056B1B6 /* SceneDelegate.swift */; };
+		D3382C6F26AFC84B0056B1B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3382C6E26AFC84B0056B1B6 /* ViewController.swift */; };
+		D3382C7226AFC84B0056B1B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3382C7026AFC84B0056B1B6 /* Main.storyboard */; };
+		D3382C7526AFC84B0056B1B6 /* QuantsappTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3382C7326AFC84B0056B1B6 /* QuantsappTest.xcdatamodeld */; };
+		D3382C7726AFC84E0056B1B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3382C7626AFC84E0056B1B6 /* Assets.xcassets */; };
+		D3382C7A26AFC84E0056B1B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3382C7826AFC84E0056B1B6 /* LaunchScreen.storyboard */; };
+		D3382C8526AFC84E0056B1B6 /* QuantsappTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3382C8426AFC84E0056B1B6 /* QuantsappTestTests.swift */; };
+		D3382C9026AFC84E0056B1B6 /* QuantsappTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3382C8F26AFC84E0056B1B6 /* QuantsappTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3382C8126AFC84E0056B1B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3382C5F26AFC84B0056B1B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3382C6626AFC84B0056B1B6;
+			remoteInfo = QuantsappTest;
+		};
+		D3382C8C26AFC84E0056B1B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3382C5F26AFC84B0056B1B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3382C6626AFC84B0056B1B6;
+			remoteInfo = QuantsappTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		603FDB50B4DB9DC847D321D1 /* Pods-QuantsappTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuantsappTest.release.xcconfig"; path = "Target Support Files/Pods-QuantsappTest/Pods-QuantsappTest.release.xcconfig"; sourceTree = "<group>"; };
+		AE8A2970E49D6BFD8D8BD313 /* libPods-QuantsappTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuantsappTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3308C0A26AFD14400962FC7 /* dataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataModel.swift; sourceTree = "<group>"; };
+		D3308C0D26AFD2A800962FC7 /* serverManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serverManager.swift; sourceTree = "<group>"; };
+		D3382C6726AFC84B0056B1B6 /* QuantsappTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuantsappTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3382C6A26AFC84B0056B1B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3382C6C26AFC84B0056B1B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D3382C6E26AFC84B0056B1B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3382C7126AFC84B0056B1B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3382C7426AFC84B0056B1B6 /* QuantsappTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuantsappTest.xcdatamodel; sourceTree = "<group>"; };
+		D3382C7626AFC84E0056B1B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3382C7926AFC84E0056B1B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3382C7B26AFC84E0056B1B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3382C8026AFC84E0056B1B6 /* QuantsappTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuantsappTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3382C8426AFC84E0056B1B6 /* QuantsappTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantsappTestTests.swift; sourceTree = "<group>"; };
+		D3382C8626AFC84E0056B1B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3382C8B26AFC84E0056B1B6 /* QuantsappTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuantsappTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3382C8F26AFC84E0056B1B6 /* QuantsappTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantsappTestUITests.swift; sourceTree = "<group>"; };
+		D3382C9126AFC84E0056B1B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9B916280380CB0538889508 /* Pods-QuantsappTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuantsappTest.debug.xcconfig"; path = "Target Support Files/Pods-QuantsappTest/Pods-QuantsappTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3382C6426AFC84B0056B1B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB24F453993EA965D3ADCF2A /* libPods-QuantsappTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3382C7D26AFC84E0056B1B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3382C8826AFC84E0056B1B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0F6B712320C9612AA9FFF9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE8A2970E49D6BFD8D8BD313 /* libPods-QuantsappTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3308C0C26AFD29800962FC7 /* server */ = {
+			isa = PBXGroup;
+			children = (
+				D3308C0D26AFD2A800962FC7 /* serverManager.swift */,
+			);
+			path = server;
+			sourceTree = "<group>";
+		};
+		D3382C5E26AFC84B0056B1B6 = {
+			isa = PBXGroup;
+			children = (
+				D3308C0A26AFD14400962FC7 /* dataModel.swift */,
+				D3382C6926AFC84B0056B1B6 /* QuantsappTest */,
+				D3382C8326AFC84E0056B1B6 /* QuantsappTestTests */,
+				D3382C8E26AFC84E0056B1B6 /* QuantsappTestUITests */,
+				D3382C6826AFC84B0056B1B6 /* Products */,
+				FBB73036B4152852C846F890 /* Pods */,
+				A0F6B712320C9612AA9FFF9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D3382C6826AFC84B0056B1B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3382C6726AFC84B0056B1B6 /* QuantsappTest.app */,
+				D3382C8026AFC84E0056B1B6 /* QuantsappTestTests.xctest */,
+				D3382C8B26AFC84E0056B1B6 /* QuantsappTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3382C6926AFC84B0056B1B6 /* QuantsappTest */ = {
+			isa = PBXGroup;
+			children = (
+				D3308C0C26AFD29800962FC7 /* server */,
+				D3382C6A26AFC84B0056B1B6 /* AppDelegate.swift */,
+				D3382C6C26AFC84B0056B1B6 /* SceneDelegate.swift */,
+				D3382C6E26AFC84B0056B1B6 /* ViewController.swift */,
+				D3382C7026AFC84B0056B1B6 /* Main.storyboard */,
+				D3382C7626AFC84E0056B1B6 /* Assets.xcassets */,
+				D3382C7826AFC84E0056B1B6 /* LaunchScreen.storyboard */,
+				D3382C7B26AFC84E0056B1B6 /* Info.plist */,
+				D3382C7326AFC84B0056B1B6 /* QuantsappTest.xcdatamodeld */,
+			);
+			path = QuantsappTest;
+			sourceTree = "<group>";
+		};
+		D3382C8326AFC84E0056B1B6 /* QuantsappTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3382C8426AFC84E0056B1B6 /* QuantsappTestTests.swift */,
+				D3382C8626AFC84E0056B1B6 /* Info.plist */,
+			);
+			path = QuantsappTestTests;
+			sourceTree = "<group>";
+		};
+		D3382C8E26AFC84E0056B1B6 /* QuantsappTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3382C8F26AFC84E0056B1B6 /* QuantsappTestUITests.swift */,
+				D3382C9126AFC84E0056B1B6 /* Info.plist */,
+			);
+			path = QuantsappTestUITests;
+			sourceTree = "<group>";
+		};
+		FBB73036B4152852C846F890 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9B916280380CB0538889508 /* Pods-QuantsappTest.debug.xcconfig */,
+				603FDB50B4DB9DC847D321D1 /* Pods-QuantsappTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3382C6626AFC84B0056B1B6 /* QuantsappTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3382C9426AFC84E0056B1B6 /* Build configuration list for PBXNativeTarget "QuantsappTest" */;
+			buildPhases = (
+				2230BE6AF686030F7AD00BA1 /* [CP] Check Pods Manifest.lock */,
+				D3382C6326AFC84B0056B1B6 /* Sources */,
+				D3382C6426AFC84B0056B1B6 /* Frameworks */,
+				D3382C6526AFC84B0056B1B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuantsappTest;
+			productName = QuantsappTest;
+			productReference = D3382C6726AFC84B0056B1B6 /* QuantsappTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3382C7F26AFC84E0056B1B6 /* QuantsappTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3382C9726AFC84E0056B1B6 /* Build configuration list for PBXNativeTarget "QuantsappTestTests" */;
+			buildPhases = (
+				D3382C7C26AFC84E0056B1B6 /* Sources */,
+				D3382C7D26AFC84E0056B1B6 /* Frameworks */,
+				D3382C7E26AFC84E0056B1B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3382C8226AFC84E0056B1B6 /* PBXTargetDependency */,
+			);
+			name = QuantsappTestTests;
+			productName = QuantsappTestTests;
+			productReference = D3382C8026AFC84E0056B1B6 /* QuantsappTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3382C8A26AFC84E0056B1B6 /* QuantsappTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3382C9A26AFC84E0056B1B6 /* Build configuration list for PBXNativeTarget "QuantsappTestUITests" */;
+			buildPhases = (
+				D3382C8726AFC84E0056B1B6 /* Sources */,
+				D3382C8826AFC84E0056B1B6 /* Frameworks */,
+				D3382C8926AFC84E0056B1B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3382C8D26AFC84E0056B1B6 /* PBXTargetDependency */,
+			);
+			name = QuantsappTestUITests;
+			productName = QuantsappTestUITests;
+			productReference = D3382C8B26AFC84E0056B1B6 /* QuantsappTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3382C5F26AFC84B0056B1B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D3382C6626AFC84B0056B1B6 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					D3382C7F26AFC84E0056B1B6 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D3382C6626AFC84B0056B1B6;
+					};
+					D3382C8A26AFC84E0056B1B6 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D3382C6626AFC84B0056B1B6;
+					};
+				};
+			};
+			buildConfigurationList = D3382C6226AFC84B0056B1B6 /* Build configuration list for PBXProject "QuantsappTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3382C5E26AFC84B0056B1B6;
+			productRefGroup = D3382C6826AFC84B0056B1B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3382C6626AFC84B0056B1B6 /* QuantsappTest */,
+				D3382C7F26AFC84E0056B1B6 /* QuantsappTestTests */,
+				D3382C8A26AFC84E0056B1B6 /* QuantsappTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3382C6526AFC84B0056B1B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3382C7A26AFC84E0056B1B6 /* LaunchScreen.storyboard in Resources */,
+				D3382C7726AFC84E0056B1B6 /* Assets.xcassets in Resources */,
+				D3382C7226AFC84B0056B1B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3382C7E26AFC84E0056B1B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3382C8926AFC84E0056B1B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2230BE6AF686030F7AD00BA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuantsappTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3382C6326AFC84B0056B1B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3308C0E26AFD2A800962FC7 /* serverManager.swift in Sources */,
+				D3382C6F26AFC84B0056B1B6 /* ViewController.swift in Sources */,
+				D3382C6B26AFC84B0056B1B6 /* AppDelegate.swift in Sources */,
+				D3382C6D26AFC84B0056B1B6 /* SceneDelegate.swift in Sources */,
+				D3308C0B26AFD14400962FC7 /* dataModel.swift in Sources */,
+				D3382C7526AFC84B0056B1B6 /* QuantsappTest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3382C7C26AFC84E0056B1B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3382C8526AFC84E0056B1B6 /* QuantsappTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3382C8726AFC84E0056B1B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3382C9026AFC84E0056B1B6 /* QuantsappTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3382C8226AFC84E0056B1B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3382C6626AFC84B0056B1B6 /* QuantsappTest */;
+			targetProxy = D3382C8126AFC84E0056B1B6 /* PBXContainerItemProxy */;
+		};
+		D3382C8D26AFC84E0056B1B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3382C6626AFC84B0056B1B6 /* QuantsappTest */;
+			targetProxy = D3382C8C26AFC84E0056B1B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3382C7026AFC84B0056B1B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3382C7126AFC84B0056B1B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3382C7826AFC84E0056B1B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3382C7926AFC84E0056B1B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3382C9226AFC84E0056B1B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3382C9326AFC84E0056B1B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3382C9526AFC84E0056B1B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9B916280380CB0538889508 /* Pods-QuantsappTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QU3B4KP4F6;
+				INFOPLIST_FILE = QuantsappTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rautyash.QuantsappTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3382C9626AFC84E0056B1B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 603FDB50B4DB9DC847D321D1 /* Pods-QuantsappTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QU3B4KP4F6;
+				INFOPLIST_FILE = QuantsappTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rautyash.QuantsappTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3382C9826AFC84E0056B1B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QU3B4KP4F6;
+				INFOPLIST_FILE = QuantsappTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rautyash.QuantsappTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuantsappTest.app/QuantsappTest";
+			};
+			name = Debug;
+		};
+		D3382C9926AFC84E0056B1B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QU3B4KP4F6;
+				INFOPLIST_FILE = QuantsappTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rautyash.QuantsappTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuantsappTest.app/QuantsappTest";
+			};
+			name = Release;
+		};
+		D3382C9B26AFC84E0056B1B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QU3B4KP4F6;
+				INFOPLIST_FILE = QuantsappTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rautyash.QuantsappTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuantsappTest;
+			};
+			name = Debug;
+		};
+		D3382C9C26AFC84E0056B1B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QU3B4KP4F6;
+				INFOPLIST_FILE = QuantsappTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rautyash.QuantsappTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuantsappTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3382C6226AFC84B0056B1B6 /* Build configuration list for PBXProject "QuantsappTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3382C9226AFC84E0056B1B6 /* Debug */,
+				D3382C9326AFC84E0056B1B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3382C9426AFC84E0056B1B6 /* Build configuration list for PBXNativeTarget "QuantsappTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3382C9526AFC84E0056B1B6 /* Debug */,
+				D3382C9626AFC84E0056B1B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3382C9726AFC84E0056B1B6 /* Build configuration list for PBXNativeTarget "QuantsappTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3382C9826AFC84E0056B1B6 /* Debug */,
+				D3382C9926AFC84E0056B1B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3382C9A26AFC84E0056B1B6 /* Build configuration list for PBXNativeTarget "QuantsappTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3382C9B26AFC84E0056B1B6 /* Debug */,
+				D3382C9C26AFC84E0056B1B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D3382C7326AFC84B0056B1B6 /* QuantsappTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D3382C7426AFC84B0056B1B6 /* QuantsappTest.xcdatamodel */,
+			);
+			currentVersion = D3382C7426AFC84B0056B1B6 /* QuantsappTest.xcdatamodel */;
+			path = QuantsappTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D3382C5F26AFC84B0056B1B6 /* Project object */;
+}

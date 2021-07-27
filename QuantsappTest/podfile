@@ -1,0 +1,7 @@
+target 'QuantsappTest' do
+
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
+  pod 'AlamofireSwiftyJSON'
+
+end

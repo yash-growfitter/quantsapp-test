@@ -1,0 +1,6 @@
+module AlamofireSwiftyJSON {
+  umbrella header "AlamofireSwiftyJSON-umbrella.h"
+
+  export *
+  module * { export * }
+}
